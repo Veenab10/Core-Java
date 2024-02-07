@@ -194,16 +194,6 @@ public class LaptopRunner {
 		touchScreenLaptop3.zoomout();
 		touchScreenLaptop3.connectivity();
 		
-		
-		
-		
-		
-		
-		
-
-		
-		
-		
 	}
 
 }
