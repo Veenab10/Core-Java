@@ -11,14 +11,14 @@ public class PillowRunner {
 		
 		Bed bed=new Bed();
 		Pillow pillow=new Pillow();
-		bed.bedrunner(pillow);
+		bed.capacity(pillow);
 		
 		
 		Pillow pillow1=new MicroFiberPillow();
-		bed.bedrunner(pillow1);
+		bed.capacity(pillow1);
 		
 		Pillow pillow2=new AirPillow();
-		bed.bedrunner(pillow2);
+		bed.capacity(pillow2);
 	
 		
 	}

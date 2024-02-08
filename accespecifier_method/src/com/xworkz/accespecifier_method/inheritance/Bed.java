@@ -2,7 +2,7 @@ package com.xworkz.accespecifier_method.inheritance;
 
 public class Bed {
 	
-	public void bedrunner(Pillow pil)
+	public void capacity(Pillow pil)
 	{
 		pil.material="Fabric";
 		System.out.println(pil.material);
