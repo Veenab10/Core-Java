@@ -3,6 +3,7 @@ package com.xworkz.accespecifier_method.inheritance;
 public class Card {
 	
 	public Card()
+	
 	{
 		System.out.println("No parameter constructor of Card");
 	}
