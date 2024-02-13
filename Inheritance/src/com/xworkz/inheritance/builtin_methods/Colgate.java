@@ -14,7 +14,8 @@ public class Colgate {
 	@Override
 	public String toString() {
 		
-		return "Colgate:"+"\n"+"Item Form:"+itemForm+"\n"+"flavour:"+flavour+"\n"+"Price:"+price;
+		System.out.print( "Colgate:"+"\n"+"Item Form:"+itemForm+"\n"+"flavour:"+flavour+"\n"+"Price:"+price);
+		return super.toString();
 	}
 
 }

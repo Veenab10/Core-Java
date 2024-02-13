@@ -26,7 +26,8 @@ public class Ring {
 	@Override
 	public String toString() {
 		System.out.println("toString running in Ring..");
-		return "Ring:"+"\n"+"jewelleryType:"+jewelleryType+ "\n"+"platedMetalType:"+platedMetalType+ "\n"+"stoneShape:"+stoneShape;
+		System.out.print("Ring:"+"\n"+"jewelleryType:"+jewelleryType+ "\n"+"platedMetalType:"+platedMetalType+ "\n"+"stoneShape:"+stoneShape);
+		return super.toString();
 	
 }
 

@@ -20,7 +20,8 @@ public class SwitchBoard {
 	@Override
 	public String toString() {
 		
-		return "SwitchBoard:"+"\n"+"Brand:"+brand+"\n"+"price:"+price+"\n"+"madeIN:"+madeIn;
+		System.out.print( "SwitchBoard:"+"\n"+"Brand:"+brand+"\n"+"price:"+price+"\n"+"madeIN:"+madeIn);
+		return super.toString();
 	}
 
 }

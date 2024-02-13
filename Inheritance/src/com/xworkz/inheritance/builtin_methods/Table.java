@@ -13,7 +13,8 @@ public class Table {
 	
 	@Override
 	public String toString() {
-		return "Table:"+"\n"+"Base Material:"+baseMaterial+"\n"+"Shape:"+"\n"+"Finish Type:"+finishType;
+		System.out.print( "Table:"+"\n"+"Base Material:"+baseMaterial+"\n"+"Shape:"+"\n"+"Finish Type:"+finishType);
+		return super.toString();
 	}
 
 }

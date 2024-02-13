@@ -14,7 +14,9 @@ public class Battery {
 	@Override
 	public String toString() {
 		
-		return "Battery:"+"\n"+"Weight:"+weight+"\n"+"Battery Cell:"+batteryCell+"\n"+"Voltage:"+voltage;
+		System.out.print( "Battery:"+"\n"+"Weight:"+weight+"\n"+"Battery Cell:"+batteryCell+"\n"+"Voltage:"+voltage);
+		return super.toString();
+		
 	}
 	
 

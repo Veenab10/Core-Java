@@ -13,7 +13,8 @@ public class Tie {
 	
 	@Override
 	public String toString() {
-		return "Tie:"+"\n"+"Apparel Material:"+apparelMaterial+"\n"+"Occasion:"+occasion+"\n"+"Brand:"+brand;
+		System.out.print("Tie:"+"\n"+"Apparel Material:"+apparelMaterial+"\n"+"Occasion:"+occasion+"\n"+"Brand:"+brand);
+		return super.toString();
 	}
 	
 

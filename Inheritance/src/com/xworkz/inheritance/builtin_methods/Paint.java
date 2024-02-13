@@ -20,7 +20,8 @@ public class Paint {
 	public String toString() {
 		System.out.println("tostring runing in Paint");
 		
-		return "Paint:"+"\n"+"surface Recommendation:"+surfaceRecommendation+"\n"+"Item Form:"+itemForm+"\n"+"Size:"+size;
+		System.out.print( "Paint:"+"\n"+"surface Recommendation:"+surfaceRecommendation+"\n"+"Item Form:"+itemForm+"\n"+"Size:"+size);
+		return super.toString();
 	}
 	
 	
