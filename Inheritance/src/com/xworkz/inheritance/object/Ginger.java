@@ -1,5 +1,7 @@
 package com.xworkz.inheritance.object;
 
+import com.xworkz.inheritance.single_inheritance.Vegetable;
+
 public class Ginger extends Vegetable  {
 	
 	public Ginger()

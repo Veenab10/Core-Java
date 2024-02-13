@@ -1,10 +1,10 @@
-package com.xworkz.inheritance.object;
+package com.xworkz.inheritance.single_inheritance;
 
 public class Vegetable extends Object{
 	
 	public  Vegetable()
 	{
-		System.out.println("no pram constructor");
+		System.out.println("no pram constructor of Vegetable");
 	}
 	public String name="Chilli";
 			

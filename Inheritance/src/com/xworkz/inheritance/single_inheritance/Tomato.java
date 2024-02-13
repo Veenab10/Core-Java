@@ -1,4 +1,4 @@
-package com.xworkz.inheritance.object;
+package com.xworkz.inheritance.single_inheritance;
 
 public class Tomato extends Vegetable {
 	
