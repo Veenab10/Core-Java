@@ -9,7 +9,7 @@ public class Runner {
 		Movie valid=new Movie();
 		System.out.println("Before Event...");
 		try {
-			valid.ticketNo(6000);
+			valid.ticketNo(500);
 			System.out.println("After Event..");
 		} 
 		catch (InValidTicketNoException e) {
