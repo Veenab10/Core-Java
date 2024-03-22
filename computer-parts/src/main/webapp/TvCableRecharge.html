@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="TvRecharge.js"></script>
+</head>
+<body>
+<div>
+<nav class="navbar navbar-dark bg-primary">
+
+ <div> 
+ 		<a class="navbar-brand" href="index.html">Home </a></div>
+
+     </nav>
+  
+    </div>
+    <h1>TV Recharge Form</h1>
+<div class="container">
+<form action="tv" method="post">
+
+<div class="form-group">
+    <label for="exampleInputEmail1">ENTER CUSTOMER ID</label>
+    <input type="text" class="form-select custom-select" id="customerId" aria-describedby="emailHelp" placeholder="Enter Customer ID" name="customerId"/>
+    <small id="emailHelp" class="form-text text-muted"></small>
+    <span id="nameError"></span>
+  </div>
+  
+      
+<div class="form-group">
+ SELECT VENDORS<select class="form-select custom-select" id="vendor" name="vendor" aria-label="Default select example">
+ 
+  <option selected value="">--select Vendor--</option>
+  <option value="Dish TV">DISH TV</option>
+  <option value="Airtel Digital TV">AIRTEL DIGITAL TV</option>
+  <option value="Samsung">SAMSUNG</option>
+  <option value="Sony">SONY</option>
+  <option value="Philips">PHILIPS</option>
+  <option value="Toshiba">TBSHIBA</option>
+
+</select>
+<span id="vendorError"></span>
+</div>
+
+<div class="form-group">
+    <label for="exampleInputEmail1">ENTER TV RECHARGE  AMOUNT</label>
+    <input type="text" class="form-select custom-select" id="amount" aria-describedby="emailHelp" placeholder="Enter  Tv Recharge  Amount" name="amount"/>
+    <small id="emailHelp" class="form-text text-muted"></small>
+    <span id="amountError"></span>
+  </div>
+  
+ SELECT RECHARGE TYPE <div class="form-check"> 
+  <input class="form-check-input" type="radio" name="rechargeType" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    MONTHLY
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="rechargeType" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    TOPUP
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="rechargeType" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    OTT
+  </label>
+</div>
+
+
+<label for="Select Checkbox">
+            <input type="checkbox" id="checkbox"> Accept
+            <span id="checkboxError"></span>
+        </label>
+
+<div class="form-group">
+<button type="submit" onclick="tvRecharge()" onchange="tvRecharge()"  id="submit_button" class="btn btn-primary" >Submit</button>
+</div>
+
+</body>
+</html>
