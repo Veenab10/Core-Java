@@ -27,6 +27,7 @@ public class BusRunner {
 			System.err.println(e);
 		}
 		System.out.println("Bus Ticker Runner.....");
+		//System.out.println(busTicket.getClass()); - it returns the run time class object
 
 	}
 

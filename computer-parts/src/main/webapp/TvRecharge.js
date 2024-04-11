@@ -12,7 +12,8 @@ function tvRecharge(){
 	submitButton.disabled =  true;
 	
 	//let onchange=document.getElementById("submit_button")
-	//onchange.enabled=true
+	//onchange.disabled=true;
+	
 	//submitButton.disabled = false
 	if(customerId.length < 8)
 	{
@@ -22,11 +23,11 @@ function tvRecharge(){
 		nameError.style.color='red'
 		
 	}
-	else{
+	/*else{
 		var onchange=document.getElementById("submit_button").addEventListener("change", tvRecharge);
 	onchange.disabled=false;
 	return;
-	}
+	}*/
 	
 	
 	var vendor=document.getElementById("vendor")
@@ -81,6 +82,7 @@ function tvRecharge(){
 		checkboxError.style.color='red'
 		return;
 	}
+	return;
 	return;
 	
 	submitButton.disabled = false ;
