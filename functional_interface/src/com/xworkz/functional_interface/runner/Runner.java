@@ -4,6 +4,7 @@ import com.xworkz.functional_interface.interface_classes.Bag;
 import com.xworkz.functional_interface.interface_classes.Ball;
 import com.xworkz.functional_interface.interface_classes.Door;
 import com.xworkz.functional_interface.interface_classes.Pencil;
+import com.xworkz.functional_interface.interface_classes.Phone;
 import com.xworkz.functional_interface.interface_classes.WaterBottle;
 
 public class Runner {
@@ -39,6 +40,11 @@ public class Runner {
 			
 		};
 		bag.weightage("Safari", 399, "Black");
+		
+		Phone phone=(b,p,s)->{
+			 System.out.println("display method running in lamda function");
+			
+		};
 		}
 	
 		
