@@ -11,12 +11,11 @@
 		nameError.innerHTML="Please Enter Player Name"
 		nameError.style.color='red'
 		submit.removeAttribute("disabled","")
-	
 		
 	}
 	else
 	{
-			var nameError=document.getElementById("nameError")
+		var nameError=document.getElementById("nameError")
 		nameError.innerHTML="correct"
 		nameError.style.color='green'
 		submit.setAttribute("disabled","")
@@ -32,7 +31,7 @@
 	console.log(name.value)
 	if(name.length>=5 && name.length<20)
 	{
-			var nameError=document.getElementById("nameError")
+		var nameError=document.getElementById("nameError")
 		nameError.innerHTML=" Entered Name is valid"
 		nameError.style.color='green'
 		submit.removeAttribute("disabled");
