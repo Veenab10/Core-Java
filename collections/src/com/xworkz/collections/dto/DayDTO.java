@@ -19,7 +19,8 @@ public class DayDTO implements Serializable, Comparable<DayDTO> {
 	@Override
 	public int compareTo(DayDTO ref) {
 		System.out.println("running compareto....");
-		return this.getOrder().compareTo(ref.order);
+		return this.getOrder().compareTo(ref.order);//dec
+		//return ref.getOrder().compareTo(this.order);//asc
 	}
 
 	@Override
