@@ -1,6 +1,8 @@
 package com.xworkz.collections.dto;
 
-public class MarkerDTO {
+import java.io.Serializable;
+
+public class MarkerDTO implements Serializable {
 	private String brand;
 	private String color;
 	private int price;

@@ -1,6 +1,8 @@
 package com.xworkz.collections.dto;
 
-public class PerfumeDTO {
+import java.io.Serializable;
+
+public class PerfumeDTO implements Serializable {
 	
 	private String brand;
 	private String color;
