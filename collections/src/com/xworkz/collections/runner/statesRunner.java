@@ -138,8 +138,8 @@ public class statesRunner {
 
 //		statesCollection
 //		.stream()
-//		.filter(d -> d.getDirection().equals("EAST"))
-//		//.filter(d->d.getName().equals("Karnataka"))
+//		.filter(d -> d.getDirection().equals(Direction.EAST))
+//
 //		.forEach(di -> System.out.println(di));
 
 		System.out.println("___________________________________________");

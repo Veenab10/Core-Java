@@ -36,8 +36,11 @@ public class BrushRunner {
 
 		System.out.println("-----------------------");
 
-		brushCollection.stream().sorted().filter(brush -> brush.getPrice() > 50).collect(Collectors.toList())
-				.forEach(b -> System.out.println(b));
+		brushCollection.stream()
+		.sorted()
+		.filter(brush -> brush.getPrice() > 50)
+		.collect(Collectors.toList())
+		.forEach(b -> System.out.println(b));
 
 	}
 
